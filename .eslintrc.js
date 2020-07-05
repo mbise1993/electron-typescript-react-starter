@@ -17,6 +17,7 @@ module.exports = {
     'plugin:import/warnings',
   ],
   rules: {
+    'import/no-unresolved': 'off',
     'react/prop-types': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
